@@ -1,0 +1,60 @@
+.top-header{
+    background: url(../../../img/bg_header.png) #013056 no-repeat center;
+    background-size: cover;
+    padding: 15px 0;
+}
+.top-header .row{
+    align-items: center;
+}
+.top-header p{
+    font-family: 'font-t';
+    font-size: 20px;
+    color: #caddea;
+}
+.top-header span{
+    font-family: 'font-r';
+}
+.top-header a{
+    color: #fff;
+    font-size: 22px;
+    font-family: 'font-r';
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+}
+.top-header .row a:last-child{
+    padding-left: 0;
+}
+.top-header .icon{
+    margin-left: 2px;
+}
+.sprite-Login-icon {
+    width: 41px;
+    height: 25px;
+    background-position: -5px -45px;
+}
+.sprite-Chat-Icon {
+    width: 51px;
+    height: 30px;
+    background-position: -5px -5px;
+}
+
+/* burger */
+.burger,.burger::before, .burger::after{
+    display: inline-block;
+    width: 65px;
+    height: 5px;
+    background-color: #fff;
+    position: relative;
+}
+.burger::before,.burger::after{
+    content: '';
+    position: absolute;
+    left: 0;
+}
+.burger::before{
+    top: -15px;
+}
+.burger::after{
+    top: 15px;
+}

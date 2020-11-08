@@ -1,0 +1,34 @@
+.banner-img {
+    position: relative;
+    z-index: -1;
+}
+
+.banner-img img {
+    position: absolute;
+    right: -90px;
+}
+
+.d7 {
+    width: 0;
+    height: 0;
+    border-top: 33px solid #caddea;
+    border-right: 33px solid transparent;
+}
+.banner .col-xl-7{
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+.heading{
+    margin-top: 33px;
+    margin-bottom: 17px;
+    filter: drop-shadow(4px 4px 7px rgba(155,182,190,.75));
+}
+.heading h1{
+    background-color: #caddea;
+    color: #1b7fd0;
+    text-transform: uppercase;
+    font-size: 32px;
+    font-family: 'font-b';
+    padding: 20px 0;
+    padding-left: 55px;  
+}
